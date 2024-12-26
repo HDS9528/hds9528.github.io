@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    洋芋蛋蛋
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="洋芋蛋蛋">
+<meta name="description" content="在熬一熬吧！马上风吹、叶落、下雪！">
+<meta name="keywords" content="机械,杂记">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1735212034244">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://hds9528.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://hds9528.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://hds9528.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+    <script src="https://cdn.zrahh.com/js/instantclick-1.2.2.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://hds9528.github.io">
+            洋芋蛋蛋
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                <div class="thumbnail-link" style="background-image: url('https://hds9528.github.io/post-images/V9WIkpjPla.jpg')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                使用Docker安装导航页应用homepage
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                    <span id="/post/V9WIkpjPla/" class="leancloud_visitors" data-flag-title="使用Docker安装导航页应用homepage">
+                                                <i class="Card Card-view"></i>&nbsp;阅读量&nbsp;
+                                                <i class="leancloud-visitors-count">0</i>
+                                            </span>
+
+                                                    
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            9.3分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="洋芋蛋蛋" src="https://hds9528.github.io/images/avatar.png?v=1735212034244" srcset="https://hds9528.github.io/images/avatar.png?v=1735212034244" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://hds9528.github.io" title="由洋芋蛋蛋发布" rel="author">洋芋蛋蛋<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2024-12-08</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <!-- more -->
+<p><strong>homepage</strong> 是一个现代（完全静态、快速）、安全（完全代理）、高度可定制的应用程序仪表板，集成了超过 25 种服务和超过 15 种语言的翻译。可以通过 YAML 文件轻松配置（或通过 docker 标签发现）。下面是homepage的一些特性：</p>
+<p>快！整个站点是在构建时静态生成的，因此您可以期待即时加载时间</p>
+<p>安全！对后端服务的每个 API 请求都通过代理服务器，因此您的 API 密钥永远不会向前端客户端公开</p>
+<p>多平台支持，为 AMD64 （x86_64）、ARM64、ARMv7 和 ARMv6 构建的映像</p>
+<p>支持所有Raspberry Pi，大多数SBC和Apple Silicon</p>
+<p>完整的i18n支持，翻译加泰罗尼亚语，中文，荷兰语，芬兰语，法语，德语，希伯来语，匈牙利语，马来语，挪威语，波兰语，葡萄牙语，葡萄牙语（巴西），罗马尼亚语，俄语，西班牙语，瑞典语和粤语</p>
+<p>服务和网络书签</p>
+<p>Docker集成<br>
+容器状态（正在运行/已停止）和统计信息（CPU，内存，网络）</p>
+<p>自动服务发现（通过标签）</p>
+<p>服务集成<br>
+集成Sonarr, Radarr, Readarr, Prowlarr, Bazarr, Lidarr, Emby, Jellyfin, Tautulli, Plex 等<br>
+集成Ombi，Overseerr，Jellyseerr，Jackett，NZBGet，SABnzbd，ruTorrent，Transmission，qBittorrent等<br>
+集成Portainer，Traefik，Speedtest Tracker，PiHole，AdGuard Home， Nginx Proxy Manager,，Gotify，Syncthing Relay Server，Authentik，Proxmox等</p>
+<p>信息提供者，Coin Market Cap, Mastodon 等<br>
+信息和实用工具小部件<br>
+系统统计信息（磁盘、CPU、内存）<br>
+天气通过OpenWeatherMap或Open-Meteo</p>
+<p>网页搜索栏<br>
+UniFi 控制台、概览等<br>
+即时“快速启动”搜索</p>
+<p>定制<br>
+21 种主题颜色，支持浅色和深色模式<br>
+背景图像支持<br>
+列和行布局选项<br>
+老规矩，使用Docker来部署，无非是三板斧：准备、安装和配置，下面逐步介绍：</p>
+<p><strong>安装homepage</strong></p>
+<p>CLI命令</p>
+<pre><code class="language-dockerfile">docker run -d --name=homepage \
+-p 3550:3000 \
+-v /mnt/mmcblk2p3/Docker/dockerDate/homepage/homepage:/app/config \
+-v /var/run/docker.sock:/var/run/docker.sock \
+--restart always \
+ghcr.io/benphelps/homepage:latest
+</code></pre>
+<blockquote>
+<p>参数说明</p>
+</blockquote>
+<!-- more -->
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-p 3000</td>
+<td>http协议访问WebUI的端口，宿主机的端口可以修改成你自己喜欢的</td>
+</tr>
+<tr>
+<td>-e PUID=1000</td>
+<td>设置PUID的值，请改成自己的</td>
+</tr>
+<tr>
+<td>-e PGID=100</td>
+<td>设置PGID的值，请改成自己的</td>
+</tr>
+<tr>
+<td>-e TZ=Asia/Shanghai</td>
+<td>设置时区</td>
+</tr>
+<tr>
+<td>-v /app/config</td>
+<td>配置文件的保存位置</td>
+</tr>
+<tr>
+<td>-v /var/run/docker.sock</td>
+<td>docker套接字接口，用于容器状态和自动服务发现等场景</td>
+</tr>
+<tr>
+<td>ghcr.io/benphelps/homepage</td>
+<td>注意，一定要用这个镜像，dockerhub上的不是官方镜像</td>
+</tr>
+</tbody>
+</table>
+<!-- more -->
+<p>homepage的UI做的很精致，支持明亮和暗黑模式，看着比较舒服。首页默认添加CPU、内存和磁盘状态显示，可以进行快速搜索。</p>
+<h2 id="配置homepage">配置homepage</h2>
+<p>官方在介绍的特性中提到，homepage对Docker和大量第三方应用做了深度集成。但是，homepage不支持在WebUI上进行配置，所有配置都要在配置文件（<code>/app/conifg</code>文件夹中的各种<code>yaml</code>文件）中手工填写，这点还是不够平民化，不过都不是太难理解，看一看官方的文档照着写就行了。</p>
+<p>homepage中可配置的内容主要包括服务、服务组件、信息组件、书签、Docker配置、k8s配置和系统配置，零碎的东西非常多，本文就简单对服务、服务组件、信息组件进行简要的说明和示例。</p>
+<h4 id="1-配置服务和服务小组件">1、配置服务和服务小组件</h4>
+<p>服务简单理解就是我们要导航的系统或应用，服务都是在一个分组下面的，可以有任意多个分组，每个分组下面可以有任意多个服务。要配置服务，在<code>/app/config/service.yaml</code>文件中添加即可。</p>
+<p>例如：添加<code>Group A</code>和<code>Group B</code>两个分组，分别在分组下添加一个服务，服务名称随便写</p>
+<pre><code class="language-yaml">- Group A:
+    - Service A:
+        href: http://localhost/
+        description: This is my service
+
+- Group B:
+    - Service B:
+        href: http://localhost/
+        description: This is another service
+</code></pre>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946002656248.jpg" alt="homepage" loading="lazy"></p>
+<p>服务除了基础名称、href（访问地址）、description（描述）属性外，还支持以下属性：</p>
+<ul>
+<li>icon，服务图标，可选项<br>
+服务的图标支持本地图标文件名、图标链接、Material Design Icons with 或 Simple Icons中的图标代码。如果使用的本地图标，需要将图标放到/app/public/icons文件夹中。例如</li>
+</ul>
+<pre><code class="language-yaml">- Group A:
+    - Sonarr:
+        icon: sonarr.png
+        href: http://sonarr.host/
+        description: Series management
+
+- Group B:
+    - Radarr:
+        icon: radarr.png
+        href: http://radarr.host/
+        description: Movie management
+        
+- Group C:
+    - Service:
+        icon: mdi-flask-outline
+        href: http://service.host/
+        description: My cool service
+</code></pre>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946015342428.jpg" alt="homepage" loading="lazy"></p>
+<ul>
+<li>ping，健康检查链接，可选项<br>
+可用于监视服务的可用性并显示响应时间。注意，ping功能的工作原理是向URL发出http请求，并在失败时回退到。例如，如果URL需要身份验证或存在反向代理的情况下，最好设置服务实际的IP来使ping功能正确显示状态。例如：</li>
+</ul>
+<pre><code class="language-yaml">- Group A:
+    - Sonarr:
+        icon: sonarr.png
+        href: http://sonarr.host/
+        ping: http://sonarr.host/
+
+- Group B:
+    - Radarr:
+        icon: radarr.png
+        href: http://radarr.host/
+        ping: http://some.other.host/
+</code></pre>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946015750483.jpg" alt="homepage" loading="lazy"></p>
+<ul>
+<li>server和container，与实际Docker容器集成，可选项<br>
+<code>server</code>是指<code>/app/config/docker.yaml</code>文件中定义的docker名称，<code>container</code>是指docker实例中的容器名称。配置后，可以在页面中显示当前docker容器的CPU、内存、网络等信息。例如：</li>
+</ul>
+<pre><code class="language-yaml">- Group A:
+    - Service A:
+        href: http://localhost/
+        description: This is my service
+        server: my-server
+        container: my-container
+
+- Group B:
+    - Service B:
+        href: http://localhost/
+        description: This is another service
+        server: other-server
+        container: other-container
+</code></pre>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946017468941.jpg" alt="homepage" loading="lazy"></p>
+<ul>
+<li>widget，即服务小组件，可选项<br>
+服务可能附加了一个服务小部件（或集成），这些服务小组件是内置在系统中的，具体有哪些小组件可以到官网（https://gethomepage.dev/en/configs/service-widgets/）查看，有一份<code>Available Widgets</code>列表。例如，我们添加了Radarr和Sonarr服务，这两个服务官方有对应的服务小组件，我们就可以直接添加上，然后就可以直接在页面的服务模块上看到应用的一些信息：</li>
+</ul>
+<pre><code class="language-yaml">- Group A:
+    - Sonarr:
+        icon: sonarr.png
+        href: http://sonarr.host/
+        description: Series management
+        widget:
+          type: sonarr
+          url: http://sonarr.host
+          key: apikeyapikeyapikeyapikeyapikey
+
+- Group B:
+    - Radarr:
+        icon: radarr.png
+        href: http://radarr.host/
+        description: Movie management
+        widget:
+          type: radarr
+          url: http://radarr.host
+          key: apikeyapikeyapikeyapikeyapikey
+</code></pre>
+<blockquote>
+<p>注意：每个小组件的属性都不一样，一般<code>type</code>和<code>url</code>是通用的，其他属性需要参考官方的详细说明</p>
+</blockquote>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946059757947.jpg" alt="homepage" loading="lazy"></p>
+<h4 id="2-配置信息小组件">2、配置信息小组件</h4>
+<p>与服务小组件不同，信息小组件是独立的，与服务没有关联，可以单独显示出来。要配置服务，在<code>/app/config/widgets.yaml</code>文件中添加即可。 例如，我们将放置两个资源小部件，一个报告所有统计信息，另一个仅报告单独位置的磁盘使用情况。</p>
+<pre><code class="language-yaml">- resources:
+    cpu: true
+    memory: true
+    disk: /mnt/storage
+- resources:
+    disk: /mnt/backups
+</code></pre>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946065180738.jpg" alt="homepage" loading="lazy"></p>
+<p>信息小组件是内置在系统中的，具体有哪些小组件可以到官网（https://gethomepage.dev/en/configs/widgets/）查看，有一份<code>Available Widgets</code>列表。</p>
+<h4 id="3-配置书签">3、配置书签</h4>
+<p>书签与服务的功能大致相同，即组和列表的工作方式。它们只是更简单，更小，除了作为链接之外不包含任何额外的功能。要配置服务，在<code>/app/config/bookmarks.yaml</code>文件中添加即可。 例如添加3个组，每个组下面都添加1个书签：</p>
+<pre><code class="language-yaml">- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+
+- Social:
+    - Reddit:
+        - icon: reddit.png
+          href: https://reddit.com/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+</code></pre>
+<blockquote>
+<p>除了书签本身的名称之外，还可以包含3个属性，分别是<code>abbr</code>（名称缩写）、<code>href</code>（连接）和<code>icon</code>（图标），其中abbr和icon可以二选一。</p>
+</blockquote>
+<p>页面上的显示效果：<br>
+<img src="https://hds9528.github.io/post-images/16946068795862.jpg" alt="homepage" loading="lazy"></p>
+<h4 id="4-配置docker集成">4、配置Docker集成</h4>
+<p>前面关于服务和服务组件章节中提到过关于Docker集成的配置，另外服务自动发现也是基于Docker集成来实现，因此要想使用这两个特性，需要先配置好相关的信息才行。</p>
+<p>Docker集成相关的配置在在<code>/app/config/widgets.yaml</code>文件中，并且支持跨机/跨实例访问Docker，相当强悍了。例如配置一个Docker实例，名为<code>my-remote-docker</code>，它可以是本机，也可以是另外一台机器，但前提是对应的<code>host</code>和<code>port</code>要正确：</p>
+<pre><code class="language-yaml">my-remote-docker:
+  host: 192.168.0.101
+  port: 2375
+</code></pre>
+<blockquote>
+<p>除了上面基本配置，还支持配置TLS、Socket代理等高级操作，由于很少被用到，本文就不介绍了，感兴趣的朋友建议到官网学习。</p>
+</blockquote>
+<h4 id="5-配置服务标签和服务自动发现">5、配置服务标签和服务自动发现</h4>
+<p>homepage对附加了正确标签的容器具有自动服务发现功能，只需要在启动Docker容器时添加必要的标签即可，这些标签需要以<code>home.</code>开头。例如启动Emby容器时，在启动命令中添加好标签，那么启动后homepage就能自动安装标签的数据添加到homepage的配置中：</p>
+<pre><code class="language-yaml">services:
+  emby:
+    image: lscr.io/linuxserver/emby:latest
+    container_name: emby
+    ports:
+      - 8096:8096
+    restart: unless-stopped
+    labels:
+      - homepage.group=Media
+      - homepage.name=Emby
+      - homepage.icon=emby.png
+      - homepage.href=http://emby.home/
+      - homepage.description=Media server
+</code></pre>
+<blockquote>
+<p>其中<code>labels</code>节点下的<code>homepage.xxx</code>等属性就对应homepage服务的属性。</p>
+</blockquote>
+<h2 id="总结">总结</h2>
+<p>除了以上主要的组件配置之外，homepage还有大量的可配置选项，这些选项可在<code>/app/config/settings.yaml</code>文件中设置，由于实在是太多了，感兴趣的朋友可到官网上查看，本文就不赘述了。</p>
+
+                                </div>
+                            </div>
+                            
+                                <div class="reward ">
+                                    <div class="reward-button ">&yen;
+                                        <span class="reward-code "> 
+                                            <span class="alipay-code "> <img class="alipay-img "  alt = "support " src="/images/支付宝.jpg"><b>Alipay</b>                                                            </span>
+                                        <span class="wechat-code "> <img alt ="support " class="wechat-img " src="/images/微信支付.jpg"><b>Wechat</b> </span> </span>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                洋芋蛋蛋<br>永久链接:
+                                    <a href="https://hds9528.github.io/V9WIkpjPla/" title="使用Docker安装导航页应用homepage">
+                                        https://hds9528.github.io/V9WIkpjPla/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://hds9528.github.io/Oyfv_10yRc/">
+                                <i class="fa fa-chevron-left"></i>
+                                PicList+Alist构建图床
+                            </a>
+                        </div>
+                        
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://hds9528.github.io/L2p5hIfMPx/">
+                                        2024-悲春伤秋<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://hds9528.github.io/V9WIkpjPla/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hds9528.github.io/V9WIkpjPla/&sharesource=qzone&title=使用Docker安装导航页应用homepage&pics=https://hds9528.github.io/images/avatar.png?v=1735212034244&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://hds9528.github.io/V9WIkpjPla/&sharesource=weibo&title=使用Docker安装导航页应用homepage + " - " + &pic="https://hds9528.github.io/images/avatar.png?v=1735212034244"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '67e806cf8a40d225a893',
+        clientSecret: 'd407e28b2a0ba051ec725a52fea01d0e509446b8',
+        repo: 'https://hds9528.github.io',
+        owner: 'hds9528',
+        admin: ['hds9528'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: '',
+        appKey: '',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '来都来了，不妨评论一下',
+        visitor: true,
+        highlight: true,
+        recordIP: true,
+    })
+</script>
+                                                    
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://hds9528.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷暖通',
+                                        url: 'https://hds9528.github.io/BUh2ERhmABt/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷选型',
+                                        url: 'https://hds9528.github.io/jkV3YFdmccY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷泵',
+                                        url: 'https://hds9528.github.io/Wnjn9lk7-Lh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷BOM',
+                                        url: 'https://hds9528.github.io/PI_6zkpB7/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷密封圈',
+                                        url: 'https://hds9528.github.io/89We8UMBh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷O形橡胶圈',
+                                        url: 'https://hds9528.github.io/ixT2MqQZ3D/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电气',
+                                        url: 'https://hds9528.github.io/-Aq_YDJIG/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷螺栓',
+                                        url: 'https://hds9528.github.io/oE1_Fbgjv/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷管道',
+                                        url: 'https://hds9528.github.io/1IUI6QxMus/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷法兰',
+                                        url: 'https://hds9528.github.io/VQXUlGBpiY0/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷solidworks',
+                                        url: 'https://hds9528.github.io/JUPXyGJy9X/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷Gridea',
+                                        url: 'https://hds9528.github.io/7hH9--hND/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷机械',
+                                        url: 'https://hds9528.github.io/dM7YjRk7hY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷笔记',
+                                        url: 'https://hds9528.github.io/qIdMOoNCx1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷知识',
+                                        url: 'https://hds9528.github.io/q_PAbhL9Zm/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷组态',
+                                        url: 'https://hds9528.github.io/vbsGYnE8T/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷震动',
+                                        url: 'https://hds9528.github.io/yj-k5IwFLN1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷随笔',
+                                        url: 'https://hds9528.github.io/_8BpFSlZ4U/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷仪表',
+                                        url: 'https://hds9528.github.io/u22U9fFgn/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷心情',
+                                        url: 'https://hds9528.github.io/mk-zS4s6Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷旅行',
+                                        url: 'https://hds9528.github.io/yExNDfpwu/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷音乐',
+                                        url: 'https://hds9528.github.io/MJb16FdXi/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷专利',
+                                        url: 'https://hds9528.github.io/EzTjPQU42B/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷足迹',
+                                        url: 'https://hds9528.github.io/WnYUyNMceS/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷设计',
+                                        url: 'https://hds9528.github.io/fLR_KqFhy2/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电机',
+                                        url: 'https://hds9528.github.io/rD1AAfK4f3/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷模具',
+                                        url: 'https://hds9528.github.io/tjTBT-7ipD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职场',
+                                        url: 'https://hds9528.github.io/_MrXgiOFMD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷阀门',
+                                        url: 'https://hds9528.github.io/oJJMQFlRej/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷紧固件',
+                                        url: 'https://hds9528.github.io/YOiOpLnxlB/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷教程',
+                                        url: 'https://hds9528.github.io/GCwycyRDHd9/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷相册',
+                                        url: 'https://hds9528.github.io/7eFYO-Numdy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工作',
+                                        url: 'https://hds9528.github.io/SDpjskVZcx-/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷防呆',
+                                        url: 'https://hds9528.github.io/rGDPIUkMS-R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷问题',
+                                        url: 'https://hds9528.github.io/HOI31hMebQg/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷安装',
+                                        url: 'https://hds9528.github.io/xkG_8OQqyCy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷风机',
+                                        url: 'https://hds9528.github.io/OzpXC6tBs1R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职称',
+                                        url: 'https://hds9528.github.io/-7jikkqeu6s/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷力学',
+                                        url: 'https://hds9528.github.io/-8Qn4M_lvTQ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷发动机',
+                                        url: 'https://hds9528.github.io/yx-vNQ__GWZ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷减震',
+                                        url: 'https://hds9528.github.io/JpzkdaJDcnN/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷公差配合',
+                                        url: 'https://hds9528.github.io/4Fr6ndfaiRA/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷热处理',
+                                        url: 'https://hds9528.github.io/Of3MN_lnK4g/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工艺',
+                                        url: 'https://hds9528.github.io/I2IRpWDiPnl/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷系统',
+                                        url: 'https://hds9528.github.io/rFnoNERz9fK/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷优先数系',
+                                        url: 'https://hds9528.github.io/3KtEo-fVVXM/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷表面处理',
+                                        url: 'https://hds9528.github.io/dDtaGE9-ryh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷CAD',
+                                        url: 'https://hds9528.github.io/pC84Rb4XXQi/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '落英',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1948125134.mp3',
+                                        artist: '银临',
+                                        cover: 'http://p2.music.126.net/YhXBEzvgI9-BHRRU8Bncgg==/109951166608557026.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '童话镇',
+                                        url: '/images/music/童话镇.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'https://p2.music.126.net/sNn1aznak5Q_I-N4CkIMZg==/109951166109456453.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '错位时空',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1808492017',
+                                        artist: '艾辰',
+                                        cover: 'http://p1.music.126.net/8C0lwLE88j9ZwLyPQ9a4FA==/109951165595770076.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '阿婆说',
+                                        url: '/images/music/阿婆说 - 陈一发儿(320K).mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/WuqmyGp2T2FTKKzCDKTmdw==/109951163670388719.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: ' 牵丝戏',
+                                        url: '/images/music/陈一发儿 - 牵丝戏 - 陈一发儿.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/Ck-yIYTTx-oFnprZQnwAyA==/109951166115712947.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '漠河舞厅',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1894094482.mp3',
+                                        artist: '柳爽',
+                                        cover: 'http://p1.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '有团有聚',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1343044138.mp3',
+                                        artist: '水谷広実',
+                                        cover: 'http://p1.music.126.net/obg37GnRFZ2d34hYMUE9cA==/109951163828303973.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        说说
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        时光如白驹过隙，转瞬即逝，可是心情却很长，如高山大川，连绵不绝。<br>来自： <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> <script type="text/javascript"> document.write(returnCitySN["cip"]+','+returnCitySN["cname"]) </script> 的朋友，你好呀！
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        Tips: 
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        加载过慢可以使用代理! 本页托管于 GitHub Pages
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://wzx.is-a.dev/'"><span class="link_a"><a href="https://wzx.is-a.dev/" alt="WZX ">WZX -wzx个人主页
+</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://www.cxl2020mc.top'"><span class="link_a"><a href="https://www.cxl2020mc.top" alt="陈鑫磊的博客 ">陈鑫磊的博客 -这个人太懒了啥也没写......</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://hi-wilson.github.io'"><span class="link_a"><a href="https://hi-wilson.github.io" alt="Wilson博客 ">Wilson博客 -一个来自浙江的小学生</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        
+            
+                <div style="width:300px;margin:0 auto; padding:0px 0;">
+                    <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010408596" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="https://yanxuan.nosdn.127.net/b610ced5ac6a0e25cf6edf5606c69775.png" style="float:left;">
+                        <p id="icpinfo" style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">
+                            浙网公安备
+                        </p>
+                    </a>
+                </div>
+                
+                    
+<!--访问者IP-->
+
+
+
+<!--
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+
+
+
+                    <!--年末 开始
+                        <script src="media/js/outtime.js"></script>
+						<div id="outtime"></div>
+						<!--年末倒计时-->
+
+
+
+<div>
+<script async src="https://cdn.dusays.com/bsz.js"></script>总阅读量 <span id="busuanzi_value_page_pv"></span> 次  总访客数 <span id="busuanzi_value_site_uv"></span> 人  总访问量 <span id="busuanzi_value_site_pv"></span> 次
+</div>
+
+
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2019'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+
+                            </a>&nbsp;&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://hds9528.github.io">
+                                洋芋蛋蛋
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://abchds.gitee.io/index.html" target="_blank">
+                                小霸王
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c洋芋蛋蛋\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>

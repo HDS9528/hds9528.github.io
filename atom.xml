@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hds9528.github.io</id>
+    <title>洋芋蛋蛋</title>
+    <updated>2024-12-26T11:20:51.139Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hds9528.github.io"/>
+    <link rel="self" href="https://hds9528.github.io/atom.xml"/>
+    <subtitle>在熬一熬吧！马上风吹、叶落、下雪！</subtitle>
+    <logo>https://hds9528.github.io/images/avatar.png</logo>
+    <icon>https://hds9528.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 洋芋蛋蛋</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://hds9528.github.io/AtBcL5145m/</id>
+        <link href="https://hds9528.github.io/AtBcL5145m/">
+        </link>
+        <updated>2024-12-26T11:08:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PicList+Alist构建图床]]></title>
+        <id>https://hds9528.github.io/Oyfv_10yRc/</id>
+        <link href="https://hds9528.github.io/Oyfv_10yRc/">
+        </link>
+        <updated>2024-12-22T11:49:20.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用Docker安装导航页应用homepage]]></title>
+        <id>https://hds9528.github.io/V9WIkpjPla/</id>
+        <link href="https://hds9528.github.io/V9WIkpjPla/">
+        </link>
+        <updated>2024-12-08T09:27:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024-悲春伤秋]]></title>
+        <id>https://hds9528.github.io/L2p5hIfMPx/</id>
+        <link href="https://hds9528.github.io/L2p5hIfMPx/">
+        </link>
+        <updated>2024-10-12T12:29:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[水泵选型的方法和步骤！]]></title>
+        <id>https://hds9528.github.io/zyHDhoVmi/</id>
+        <link href="https://hds9528.github.io/zyHDhoVmi/">
+        </link>
+        <updated>2022-10-22T00:44:44.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于BOM最全的资料]]></title>
+        <id>https://hds9528.github.io/b5L8C8uWG/</id>
+        <link href="https://hds9528.github.io/b5L8C8uWG/">
+        </link>
+        <updated>2022-10-19T00:54:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用密封圈材质与应用]]></title>
+        <id>https://hds9528.github.io/JzMLHDhYX/</id>
+        <link href="https://hds9528.github.io/JzMLHDhYX/">
+        </link>
+        <updated>2022-10-19T00:22:49.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[地线基础知识介绍]]></title>
+        <id>https://hds9528.github.io/QtixuleQF/</id>
+        <link href="https://hds9528.github.io/QtixuleQF/">
+        </link>
+        <updated>2022-10-16T12:56:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[法兰接头密封—为什么螺栓不建议用 304 材料?]]></title>
+        <id>https://hds9528.github.io/ywXb9Rcl_/</id>
+        <link href="https://hds9528.github.io/ywXb9Rcl_/">
+        </link>
+        <updated>2022-10-16T12:32:21.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidWorks的文件类型]]></title>
+        <id>https://hds9528.github.io/HPAq6qVAR/</id>
+        <link href="https://hds9528.github.io/HPAq6qVAR/">
+        </link>
+        <updated>2022-10-11T02:51:48.000Z</updated>
+    </entry>
+</feed>

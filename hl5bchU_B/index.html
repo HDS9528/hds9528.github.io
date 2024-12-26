@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    洋芋蛋蛋
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="洋芋蛋蛋">
+<meta name="description" content="在熬一熬吧！马上风吹、叶落、下雪！">
+<meta name="keywords" content="机械,杂记">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1735212034244">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://hds9528.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://hds9528.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://hds9528.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+    <script src="https://cdn.zrahh.com/js/instantclick-1.2.2.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://hds9528.github.io">
+            洋芋蛋蛋
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                <div class="thumbnail-link" style="background-image: url('https://s1.328888.xyz/2022/08/08/09HLk.webp')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                风机的基础知识
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://hds9528.github.io/q_PAbhL9Zm/'">知识</span>
+                                                
+                                            <span onclick="javascript:top.location='https://hds9528.github.io/jkV3YFdmccY/'">选型</span>
+                                                
+                                            <span onclick="javascript:top.location='https://hds9528.github.io/OzpXC6tBs1R/'">风机</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                    <span id="/post/hl5bchU_B/" class="leancloud_visitors" data-flag-title="风机的基础知识">
+                                                <i class="Card Card-view"></i>&nbsp;阅读量&nbsp;
+                                                <i class="leancloud-visitors-count">0</i>
+                                            </span>
+
+                                                    
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            14.9分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="洋芋蛋蛋" src="https://hds9528.github.io/images/avatar.png?v=1735212034244" srcset="https://hds9528.github.io/images/avatar.png?v=1735212034244" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://hds9528.github.io" title="由洋芋蛋蛋发布" rel="author">洋芋蛋蛋<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2022-08-08</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <h1 id="风机的基础知识">风机的基础知识</h1>
+<p><strong>风机的基本概念</strong></p>
+<p>风机进口标准状况是指风机进口处全压为一个标准大气压(760mmH或101325Pa)，温度为20℃相对湿度为50%的气体状态。一般产品样本给出的风机参数都是在风机进口标准状况。</p>
+<p><strong>气体密度：</strong></p>
+<p>气体密度由气体状态方程确定：ρ=P/RT。</p>
+<p>标准状态下气体密度为：ρ=P/RT=101325/(288×293)=1.2。</p>
+<p>式中R=288表示气体常数，T 表示绝对温度。</p>
+<p><strong>风机流量：</strong></p>
+<p>风机流量通常用体积流量来表示,它是单位时间流过通风机的气体容积。用下式来表示Q=A×V；Q表示流量，A表示截面积，V表示气体流动速度。</p>
+<p>在空调行业中常用流量单位是m3/h（立方米每小时）和CFM（立方英尺每分钟）其换算关系如下：m3/h=1.698cfm</p>
+<p>风机流量通常是指风机进口处的流量，因气体具有压缩特性，出风口体积流量与进口处不同。但空调风机属于中低压风机在大多数情况下可以忽略其压缩性。</p>
+<p><strong>风机的全压Pt：</strong></p>
+<p>气流在某一点或某一截面上的总压等于该点截面上的静压与动压之和。而风机的全压，则定义为风机出口截面上的全压与进口截面上的全压之差，即：</p>
+<p>Pt=（Pst2 +ρ2 V2 ²/ 2）-(Pst1 +ρ1 V1²/2)</p>
+<p>Pst2 为风机出口静压、ρ2为风机出口密度、V2为风机出口速度。</p>
+<p>Pst1 为风机进口静压、ρ1为风机进口密度、V1为风机进口速度。</p>
+<p><strong>风机的动压Pd：</strong></p>
+<p>气体的动能所表征的压力称为动压。即：Pd=ρV²/2。</p>
+<p><strong>风机的静压Pst：</strong></p>
+<p>气体的压力能所表征的压力称为静压，静压定义为全压与动压之差，即：Pst= Pt–Pd。</p>
+<p>空调器设计中经常用到机组的全压、静压、风机全静压、机内阻力、机外余压等概念。</p>
+<p>如图所表示管道内全压、静压和动压：</p>
+<figure data-type="image" tabindex="1"><img src="https://hds9528.github.io/post-images/1659960242241.png" alt="" loading="lazy"></figure>
+<p>**风机的转速n：**风机转速是指风机叶轮的旋转速度，通常它以每分钟旋转数为单位。即r/min 或rmp。</p>
+<p>风机的功率N：风机所输送的气体，在单位时间内从风机中获得的有效能量称为风机有效功率；N=Pt×Q/1000kw。</p>
+<p>式中Q表示风机流量m3/S。</p>
+<p>风机轴功率N轴：N轴 = N/η kw</p>
+<p>η表示风机效率：N轴又称风机的输入功率。</p>
+<p><strong>风机的效率η：</strong></p>
+<p>风机的静压内效率为：η静内=Nst/N轴=Pst×Q /1000/N轴；</p>
+<p>风机的全压内效率为：η全内=N t/N轴= Pt×Q /1000/N轴；</p>
+<p>风机的全压 内效率和风机的静压内效率均表征风机内部流动过程的好坏。是风机气动力设计的主要指标。</p>
+<p>上述公式还可以写成：N轴= Pt×Q/1000/η全内 kw。</p>
+<p>当知道风机全压和流量及效率时利用该公式可以很快估算出电机功率。</p>
+<p>风机的全压效率为：η=η全内×ηm。</p>
+<p>ηm 为机械效率，它可以参照下表获得。</p>
+<table>
+<thead>
+<tr>
+<th>传动方式</th>
+<th>电机直联传动</th>
+<th>联轴器传动</th>
+<th>皮带传动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>机械效率ηm</td>
+<td>1</td>
+<td>0.98</td>
+<td>0.95</td>
+</tr>
+</tbody>
+</table>
+<p>皮带传动风机电机功率为：N电=kN轴/ηm = KN轴/0.95</p>
+<p>式中K表示电机安全系数。空调风机K可以在1.1~1.2之间选择。后向风机K可以选小些。</p>
+<p><strong>风机旋向：</strong></p>
+<p>风机旋向：有左旋（LG）和右旋（RG）二种。</p>
+<p>判断方法：从电机一端正视，叶轮顺时针旋转的称右旋风机，逆时针旋转的称左旋风机。由于皮带轮可左右调向，风机订货时不受左右方向限止。</p>
+<p><strong>出风口：</strong></p>
+<p>出风口方向：有0°、90°、 180°和270°等4 种出风方向。</p>
+<p>出风口法兰：采用热镀锌钢板制成，法兰与壳体连接采用TOX免焊工艺，外观精美，具有足够的刚度和强度。暖通南社</p>
+<p><strong>风舌：</strong></p>
+<p>前向风机：常规平风舌。</p>
+<p>设有最佳的风舌角和风舌间隙。</p>
+<p>后向风机：V形斜风舌。</p>
+<p>可改善风机出风口气流的倒流，有效提高大风量区风机的气动性能。</p>
+<p>可改善气流冲击风舌的频率，能有效降低风机旋转噪声。</p>
+<p>主轴：采用40Cr钢,经粗加工，调质处理及磨削加工制成，最后作防锈处理。</p>
+<p>轴承：</p>
+<p>采用优质外球面调心球轴承，预先加有润滑油并自动对中。</p>
+<p>R、L型风机轴承安装在轴承支架上并设有防振垫圈。</p>
+<p>K型风机采用带座向心球轴承。</p>
+<p>Z型风机采用重载荷带座双列滚珠轴承。</p>
+<p><strong>电机：</strong></p>
+<p>皮带传动风机：配用三相异步电机，380V，50Hz，防护等级为IP44或IP54，绝缘等级为B级，也可配用双速电机或变频电机。</p>
+<p>电机直驱风机：</p>
+<p>SYZ系列配用单相220V，50Hz三速电机。电机具有调速灵活，安装方便的特点。采用可控硅调压器及变频器等手段，可实行无级调速。采用直流无刷电机可用于高效低噪的VAV空调系统。</p>
+<p>SYB系列配用380V，50Hz外转子低噪声三相异步电机。防护等级为IP54。普通型：B级绝缘。调速型：F级绝缘。也可采用单相220V，50Hz三速电机。</p>
+<p>电机具有轴固定，外壳旋转的特点。电机安装在叶轮的中盘上，由电机外壳旋转直接驱动叶轮。</p>
+<p>采用三相调压器，可控硅调压器及变频器等手段，可实行风机的无级调速。</p>
+<p><strong>风机的选用准则</strong></p>
+<p>选用效率较高，风机较小，调节范围较大的风机，来满足系统可接受的性能，效率和质量要求。</p>
+<p>风机运行工作点，应选择在风机高效点附近，以确保运行稳定，避免风机在喘振区工作。</p>
+<p>要降低噪声，必须降低风机转速，选择较大的风机。</p>
+<p>VAV系统风机，风量风压应按运行时间较长的部分负荷工况选取。</p>
+<p>过大风机选择，往往使风机运行在小风量区，风机进出口压差大，会引起运行不稳定和噪声脉动，发出较高噪声。</p>
+<p>过小风机选择，会引起风机转速提高，空气在离开叶片时有较高速度，也会产生较高噪声。</p>
+<p>通常风机出风口平均速度在10-15M/S。</p>
+<p>前向多翼风机：具有转速低、结构轻、低噪、调速性能好和价格便宜等特点，当设计风量和压力较小，或大风量低压力时应优先选用前向风机。</p>
+<p>后向风机：具有效率高，噪声低，压力高和结构强等特点，当设计风量和压力较大，机号＞500时，应优先选用后向风机。</p>
+<p>无壳风机：当管网需要灵活出口位置，需要降低管道出口噪声，或管网在将来可能要变化的场合时应优先选用。</p>
+<p>全压曲线平坦，陡度小，静压对风量功率影响大，性能区间宽的风机，适用于系统风量对静压变化敏感，需VAV风量调节的空调机组。</p>
+<p>全压曲线陡峭，陡度大，静压对风量功率影响小的风机，适用于风量固定的空调器，前向风机的电机也不会超载。</p>
+<p><strong>风机转速：</strong></p>
+<p>风机叶轮和轴的最大转速，要低于第一临界转速的25%，避免风机在共振区工作。</p>
+<p>尽量配用4/6极电机，当机号≤500时，应优先选用前向风机。当机号＞500时，应优先选用后向风机。</p>
+<p><strong>风机风量计算：</strong></p>
+<p>按夏季送风量计算：G=Q/(iN-iO)=1000<em>W/(dN-dO)  kg/s<br>
+式中：<br>
+Q—空调房间冷负荷，W；<br>
+iN—空调房间室内空气状态焓值，kj/kg<br>
+iO—送风状态焓值，kj/kg；<br>
+W—湿负荷，g/s；<br>
+dN—空调房间室内空气状态含湿量，g/kg<br>
+dO—送风状态含湿量，g/kg。<br>
+风机的容积流量：G′= 3600</em>G/ρ m3/h<br>
+式中：</p>
+<p>G—重量流量，kg/s；</p>
+<p>ρ—空调房间空气的密度，kg/ m3，标准状态空气密度为1.2。</p>
+<p>按夏季送风量计算风量：<br>
+G′=（L<em>W</em>H）*n  m3/h</p>
+<p>式中：<br>
+L，W，H —为空调房间长，宽，高，m。<br>
+n —为房间换气次数，按下表取。一般，取 n=5~10 1/h。</p>
+<figure data-type="image" tabindex="2"><img src="https://hds9528.github.io/post-images/1659960207798.png" alt="" loading="lazy"></figure>
+<p><strong>风机全压计算：</strong></p>
+<p><strong>全压=静压+动压=机外静压+机内静压+动压=系统管道阻力+机内静压+动压</strong></p>
+<p>计算全压，一般要考虑10%余量，以补偿可能存在的漏风和阻力计算不精确。</p>
+<p>评价：一个好的送风管道设计应达到系统阻力平衡，较低噪声，较小压损和造价便宜。</p>
+<p>机外静压计算：根据空气处理装置及各送风点所在位置，设计送风管道的走向和联接管，同时确定回风管的走向和联接部件。空调机房内的新风通路和排风通路亦需确定位置与走向。</p>
+<p>画出空调系统的轴侧图，管段编号，并标注长度和风量。</p>
+<p>选择各管段内的风速，并计算管道断面。在确定断面时，应尽量选用通风管道的标准规格，以合理用料和制作。</p>
+<p>按选定的管道断面，求实际管内流速。并查图计算各管段的摩擦阻力和局部阻力。在阻力计算时应选择最不利管路，即阻力最大的管路。</p>
+<p>对与不利管路并联的管路作阻力平衡计算。一般希望并联管路之间阻力不平衡偏差不大于15%。如通过调整管路尺寸不能达到上述要求，则必须设调节阀门以保证风量分配。</p>
+<p>机外静压还可按下列方法计算：</p>
+<p>系统风管压力损失为：△P=Rm*L(1+k)  Pa<br>
+式中：<br>
+Rm—单位长度风管摩擦阻力损失，Pa/m；<br>
+L—最远送风口送风管总长加上最远回风口回风管总长，m；<br>
+k—局部阻力损失与摩擦阻力损失的比值。<br>
+弯头三通少时，取k=1.0~2.0；<br>
+弯头三通多时，取k=3.0~5.0。</p>
+<p>经试算，对具有 5只弯头，风速为4-6m/s，最长送风管为30m的管道系统，如取比摩阻Rm=5.0 Pa/m，k=2.0，由公式计算，风管压力损失为450Pa，与分段计算摩擦阻力和局部阻力的结果445.7 Pa，其误差仅为1%。</p>
+<p>组合式空调器中，含有混合段、过滤段、盘管段和风机段等不同功能段，每个功能段都有各自的阻力损失。</p>
+<p>机内静压=各功能段（风机段除外）阻力之和。</p>
+<figure data-type="image" tabindex="3"><img src="https://hds9528.github.io/post-images/1659960178885.png" alt="" loading="lazy"></figure>
+<p>无壳风机在风机箱内运行时，会产生系统效应，引起风机性能的降低，计算机内静压时，必须加上这一压力损失。</p>
+<p>风机箱系统效应，与箱体接管位置和接管方式有关，其压降为：</p>
+<p>ΔP= ζ×（ρv2/2），Pa。</p>
+<p>不接管：ζ=1.8(径向)，2.5(轴向)</p>
+<p>接管：ζ=1.3(径向)，1.8(轴向)</p>
+<p>当风机箱出口较多，且出风速度不同时，应选择最高出风速度和最大阻力系数的出口，计算箱体的压降。</p>
+<p>利用风机性能定律，可推算几何相似风机，在不同运行条件或机号时的风机性能。这些定律对所有型式风机都适用。</p>
+<p><strong>风机定理：</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">转速n变化：</th>
+<th style="text-align:center">直径D变化：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Q2=Q1（n2/n1）</td>
+<td style="text-align:center">Q2=Q1（D2/D1）3</td>
+</tr>
+<tr>
+<td style="text-align:center">P2=P1（n2/n1）2</td>
+<td style="text-align:center">P2=P1（D2/D1）2</td>
+</tr>
+<tr>
+<td style="text-align:center">N2=N1（n2/n1）3</td>
+<td style="text-align:center">N2=N1（D2/D1）5</td>
+</tr>
+<tr>
+<td style="text-align:center">LW2=LW1+50log（n2/n1）</td>
+<td style="text-align:center">LW2=LW1+70log（D2/D1）</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">式中：Q—风机风量</td>
+</tr>
+<tr>
+<td style="text-align:center">密度ρ变化：</td>
+<td style="text-align:center">P—风机静压或全压</td>
+</tr>
+<tr>
+<td style="text-align:center">Q2=Q1</td>
+<td style="text-align:center">N—风机轴功率</td>
+</tr>
+<tr>
+<td style="text-align:center">P2=P1（ρ2/ρ1）</td>
+<td style="text-align:center">n—风机转速</td>
+</tr>
+<tr>
+<td style="text-align:center">N2=N1（ρ2/ρ1）</td>
+<td style="text-align:center">D—风机直径</td>
+</tr>
+<tr>
+<td style="text-align:center">LW2=LW1+10log（ρ2/ρ1）</td>
+<td style="text-align:center">ρ—空气密度</td>
+</tr>
+</tbody>
+</table>
+<p><strong>风机噪声：</strong></p>
+<p>机械噪声：转子不平衡，轴承不合适，安装不良，机壳与接管共振，基础与建筑物刚性不足，电动机电磁振动，传动机构不合适。</p>
+<p>流体噪声：</p>
+<p>旋涡噪声：叶片在空气中旋转，引起涡流和气流紊流，产生宽频带噪声。</p>
+<p>旋转噪声：旋转叶片经过某点时，对空气产生周期性压力和速度脉动，向周围气体辐射的噪声。</p>
+<p>噪声换算公式：</p>
+<p>两声压级迭加的附加值</p>
+<figure data-type="image" tabindex="4"><img src="https://hds9528.github.io/post-images/1659960143299.png" alt="" loading="lazy"></figure>
+<p>机械噪声降低：</p>
+<p>保持转子平衡控制在标准规定的范围内，转子不平衡是引起风机振动和噪声的根源。</p>
+<p>保持防振基础有好的刚性，减振器应处于有效状态。</p>
+<p>风机进出风管与风机应柔性连接，防止机壳与接管的共振。</p>
+<p>保持风电轮位置在同一平面上，保持合适皮带松紧度，防止过松和过紧。</p>
+<p>选用优质轴承并正确安装。</p>
+<p>注意润滑油脂质量，补充间隔和填充量。</p>
+<p>选用优质电机，防止产生电磁振动和噪声。</p>
+<p>流体噪声降低：</p>
+<p>1）减少旋涡噪声：</p>
+<p>选择合理的叶轮结构元素，减少气体分离。</p>
+<p>选择翼型叶片和双园弧叶片，将叶片做成流线形。</p>
+<p>采用强前弯叶片，使叶片出口流动均匀化。</p>
+<p>选择园弧喷管型进风口，改善风机叶片的进风。</p>
+<p>2）减少旋转噪声</p>
+<p>适当增加叶片数，减轻单个叶片流体力学载荷。</p>
+<p>合理布置叶片，双吸叶轮叶片错排。</p>
+<p>采用扭曲叶片，改善气流撞击叶片基频。</p>
+<p>采用斜风舌，改善气流撞击风舌基频。</p>
+<p>增加叶轮与风舌的间隙。</p>
+<p><strong>风机的并联运行：</strong></p>
+<p>在空调机设计中常常会因空调箱结构限制而采用并联双风机，其结构有两台电机带动两台风机或单台电机带动两台风机。</p>
+<p>在同一系统或空调器中，并联风机应同时启动，运转和仃止。如单个风机运行，电机会超负荷而烧毁的可能。</p>
+<p>目前并联双风机尚无统一的测试标准，并联双风机的性能往往是通过单风机的性能计算出来的。其计算公式如下：</p>
+<p>全压、静压、动压：Pt双=Pt单，Pst双=Pt单，Pd双=Pd单。</p>
+<p>流量：Q双=Q单×2</p>
+<p>内功率：N双=N单×2.15</p>
+<p>转速：n双=n单×1.05</p>
+<p>噪音：LwiA双=LwiA单+3dB</p>
+<p>对经常需要在大风量工况运行，偶尔由于负荷降低停用一台风机时，应选用两台相同的通风机并联运行。单台风机按0.7*总风量配电机功率。</p>
+<p>对经常需要在小风量工况运行，偶尔由于负荷增加需临时增开一台风机时，应选用两台不同的通风机并联运行。单台大风机按0.8*总风量配电机功率，该工况点应是大风机的高效点。</p>
+<p><strong>电机选择：</strong></p>
+<p>选择电机必须遵循以下原则：</p>
+<p>电机工作时，发热应接近其许可温升，但不得超过。</p>
+<p>电机必须具有一定的过载能力，以保证在短时过载情况下能正常运行。</p>
+<p>电机应具有被拖动对象所需要的起动转矩，只能大，不能小。</p>
+<p>电机实际运行电流必须小于电机额定电流。</p>
+<p>电机配用功率：P= K×Ht×Q/（1000×ηin×ηme）kW</p>
+<p>式中：Ht—全压，Pa；Q—体积流量，m3/s；</p>
+<p>ηin—内效率；ηme—机械效率；K—功率储备系数。</p>
+<p>机械效率：</p>
+<p>电动机直联，机械效率ηme=1；</p>
+<p>联轴器直联，机械效率ηme=0.98；</p>
+<p>V带传动，机械效率ηme=0.95。</p>
+<p><strong>轴承寿命与温升：</strong></p>
+<p>轴承寿命：一般轴承工作寿命：2~3万小时；</p>
+<p>轴承最高温度：滚动轴承：≤80℃，温升≤40℃。</p>
+<p><strong>故障与处理：</strong></p>
+<figure data-type="image" tabindex="5"><img src="https://hds9528.github.io/post-images/1659960075125.png" alt="" loading="lazy"></figure>
+
+                                </div>
+                            </div>
+                            
+                                <div class="reward ">
+                                    <div class="reward-button ">&yen;
+                                        <span class="reward-code "> 
+                                            <span class="alipay-code "> <img class="alipay-img "  alt = "support " src="/images/支付宝.jpg"><b>Alipay</b>                                                            </span>
+                                        <span class="wechat-code "> <img alt ="support " class="wechat-img " src="/images/微信支付.jpg"><b>Wechat</b> </span> </span>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                洋芋蛋蛋<br>永久链接:
+                                    <a href="https://hds9528.github.io/hl5bchU_B/" title="风机的基础知识">
+                                        https://hds9528.github.io/hl5bchU_B/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://hds9528.github.io/mBYcxYB1y/">
+                                <i class="fa fa-chevron-left"></i>
+                                各种标准尺寸参照表
+                            </a>
+                        </div>
+                        
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://hds9528.github.io/gV8j4JEIX/">
+                                        工程师职称等级<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://hds9528.github.io/hl5bchU_B/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hds9528.github.io/hl5bchU_B/&sharesource=qzone&title=风机的基础知识&pics=https://hds9528.github.io/images/avatar.png?v=1735212034244&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://hds9528.github.io/hl5bchU_B/&sharesource=weibo&title=风机的基础知识 + " - " + &pic="https://hds9528.github.io/images/avatar.png?v=1735212034244"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '67e806cf8a40d225a893',
+        clientSecret: 'd407e28b2a0ba051ec725a52fea01d0e509446b8',
+        repo: 'https://hds9528.github.io',
+        owner: 'hds9528',
+        admin: ['hds9528'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: '',
+        appKey: '',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '来都来了，不妨评论一下',
+        visitor: true,
+        highlight: true,
+        recordIP: true,
+    })
+</script>
+                                                    
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://hds9528.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷暖通',
+                                        url: 'https://hds9528.github.io/BUh2ERhmABt/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷选型',
+                                        url: 'https://hds9528.github.io/jkV3YFdmccY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷泵',
+                                        url: 'https://hds9528.github.io/Wnjn9lk7-Lh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷BOM',
+                                        url: 'https://hds9528.github.io/PI_6zkpB7/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷密封圈',
+                                        url: 'https://hds9528.github.io/89We8UMBh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷O形橡胶圈',
+                                        url: 'https://hds9528.github.io/ixT2MqQZ3D/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电气',
+                                        url: 'https://hds9528.github.io/-Aq_YDJIG/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷螺栓',
+                                        url: 'https://hds9528.github.io/oE1_Fbgjv/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷管道',
+                                        url: 'https://hds9528.github.io/1IUI6QxMus/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷法兰',
+                                        url: 'https://hds9528.github.io/VQXUlGBpiY0/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷solidworks',
+                                        url: 'https://hds9528.github.io/JUPXyGJy9X/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷Gridea',
+                                        url: 'https://hds9528.github.io/7hH9--hND/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷机械',
+                                        url: 'https://hds9528.github.io/dM7YjRk7hY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷笔记',
+                                        url: 'https://hds9528.github.io/qIdMOoNCx1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷知识',
+                                        url: 'https://hds9528.github.io/q_PAbhL9Zm/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷组态',
+                                        url: 'https://hds9528.github.io/vbsGYnE8T/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷震动',
+                                        url: 'https://hds9528.github.io/yj-k5IwFLN1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷随笔',
+                                        url: 'https://hds9528.github.io/_8BpFSlZ4U/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷仪表',
+                                        url: 'https://hds9528.github.io/u22U9fFgn/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷心情',
+                                        url: 'https://hds9528.github.io/mk-zS4s6Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷旅行',
+                                        url: 'https://hds9528.github.io/yExNDfpwu/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷音乐',
+                                        url: 'https://hds9528.github.io/MJb16FdXi/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷专利',
+                                        url: 'https://hds9528.github.io/EzTjPQU42B/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷足迹',
+                                        url: 'https://hds9528.github.io/WnYUyNMceS/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷设计',
+                                        url: 'https://hds9528.github.io/fLR_KqFhy2/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电机',
+                                        url: 'https://hds9528.github.io/rD1AAfK4f3/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷模具',
+                                        url: 'https://hds9528.github.io/tjTBT-7ipD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职场',
+                                        url: 'https://hds9528.github.io/_MrXgiOFMD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷阀门',
+                                        url: 'https://hds9528.github.io/oJJMQFlRej/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷紧固件',
+                                        url: 'https://hds9528.github.io/YOiOpLnxlB/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷教程',
+                                        url: 'https://hds9528.github.io/GCwycyRDHd9/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷相册',
+                                        url: 'https://hds9528.github.io/7eFYO-Numdy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工作',
+                                        url: 'https://hds9528.github.io/SDpjskVZcx-/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷防呆',
+                                        url: 'https://hds9528.github.io/rGDPIUkMS-R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷问题',
+                                        url: 'https://hds9528.github.io/HOI31hMebQg/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷安装',
+                                        url: 'https://hds9528.github.io/xkG_8OQqyCy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷风机',
+                                        url: 'https://hds9528.github.io/OzpXC6tBs1R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职称',
+                                        url: 'https://hds9528.github.io/-7jikkqeu6s/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷力学',
+                                        url: 'https://hds9528.github.io/-8Qn4M_lvTQ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷发动机',
+                                        url: 'https://hds9528.github.io/yx-vNQ__GWZ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷减震',
+                                        url: 'https://hds9528.github.io/JpzkdaJDcnN/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷公差配合',
+                                        url: 'https://hds9528.github.io/4Fr6ndfaiRA/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷热处理',
+                                        url: 'https://hds9528.github.io/Of3MN_lnK4g/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工艺',
+                                        url: 'https://hds9528.github.io/I2IRpWDiPnl/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷系统',
+                                        url: 'https://hds9528.github.io/rFnoNERz9fK/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷优先数系',
+                                        url: 'https://hds9528.github.io/3KtEo-fVVXM/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷表面处理',
+                                        url: 'https://hds9528.github.io/dDtaGE9-ryh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷CAD',
+                                        url: 'https://hds9528.github.io/pC84Rb4XXQi/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '落英',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1948125134.mp3',
+                                        artist: '银临',
+                                        cover: 'http://p2.music.126.net/YhXBEzvgI9-BHRRU8Bncgg==/109951166608557026.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '童话镇',
+                                        url: '/images/music/童话镇.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'https://p2.music.126.net/sNn1aznak5Q_I-N4CkIMZg==/109951166109456453.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '错位时空',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1808492017',
+                                        artist: '艾辰',
+                                        cover: 'http://p1.music.126.net/8C0lwLE88j9ZwLyPQ9a4FA==/109951165595770076.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '阿婆说',
+                                        url: '/images/music/阿婆说 - 陈一发儿(320K).mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/WuqmyGp2T2FTKKzCDKTmdw==/109951163670388719.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: ' 牵丝戏',
+                                        url: '/images/music/陈一发儿 - 牵丝戏 - 陈一发儿.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/Ck-yIYTTx-oFnprZQnwAyA==/109951166115712947.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '漠河舞厅',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1894094482.mp3',
+                                        artist: '柳爽',
+                                        cover: 'http://p1.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '有团有聚',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1343044138.mp3',
+                                        artist: '水谷広実',
+                                        cover: 'http://p1.music.126.net/obg37GnRFZ2d34hYMUE9cA==/109951163828303973.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        说说
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        时光如白驹过隙，转瞬即逝，可是心情却很长，如高山大川，连绵不绝。<br>来自： <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> <script type="text/javascript"> document.write(returnCitySN["cip"]+','+returnCitySN["cname"]) </script> 的朋友，你好呀！
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        Tips: 
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        加载过慢可以使用代理! 本页托管于 GitHub Pages
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://wzx.is-a.dev/'"><span class="link_a"><a href="https://wzx.is-a.dev/" alt="WZX ">WZX -wzx个人主页
+</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://www.cxl2020mc.top'"><span class="link_a"><a href="https://www.cxl2020mc.top" alt="陈鑫磊的博客 ">陈鑫磊的博客 -这个人太懒了啥也没写......</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://hi-wilson.github.io'"><span class="link_a"><a href="https://hi-wilson.github.io" alt="Wilson博客 ">Wilson博客 -一个来自浙江的小学生</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        
+            
+                <div style="width:300px;margin:0 auto; padding:0px 0;">
+                    <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010408596" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="https://yanxuan.nosdn.127.net/b610ced5ac6a0e25cf6edf5606c69775.png" style="float:left;">
+                        <p id="icpinfo" style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">
+                            浙网公安备
+                        </p>
+                    </a>
+                </div>
+                
+                    
+<!--访问者IP-->
+
+
+
+<!--
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+
+
+
+                    <!--年末 开始
+                        <script src="media/js/outtime.js"></script>
+						<div id="outtime"></div>
+						<!--年末倒计时-->
+
+
+
+<div>
+<script async src="https://cdn.dusays.com/bsz.js"></script>总阅读量 <span id="busuanzi_value_page_pv"></span> 次  总访客数 <span id="busuanzi_value_site_uv"></span> 人  总访问量 <span id="busuanzi_value_site_pv"></span> 次
+</div>
+
+
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2019'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+
+                            </a>&nbsp;&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://hds9528.github.io">
+                                洋芋蛋蛋
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://abchds.gitee.io/index.html" target="_blank">
+                                小霸王
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c洋芋蛋蛋\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>

@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    洋芋蛋蛋
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="洋芋蛋蛋">
+<meta name="description" content="在熬一熬吧！马上风吹、叶落、下雪！">
+<meta name="keywords" content="机械,杂记">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1735212034244">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://hds9528.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://hds9528.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://hds9528.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+    <script src="https://cdn.zrahh.com/js/instantclick-1.2.2.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://hds9528.github.io">
+            洋芋蛋蛋
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1735212034244" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://yesplay-music-ivvsn4dlm-hds9528.vercel.app/">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/Qzine">
+                            说说
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/friends">
+                            朋友圈
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/footprint">
+                            我的足迹
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/News">
+                            每日要闻
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://jian-kong-yun-tai.hds9528.repl.co/status/yydd">
+                            运行状态
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                <div class="thumbnail-link" style="background-image: url('https://s1.328888.xyz/2022/08/11/66PYp.jpg')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                各类泵的启停步骤与事故处理
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://hds9528.github.io/HOI31hMebQg/'">问题</span>
+                                                
+                                            <span onclick="javascript:top.location='https://hds9528.github.io/Wnjn9lk7-Lh/'">泵</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                    <span id="/post/Q7F5QUBwR/" class="leancloud_visitors" data-flag-title="各类泵的启停步骤与事故处理">
+                                                <i class="Card Card-view"></i>&nbsp;阅读量&nbsp;
+                                                <i class="leancloud-visitors-count">0</i>
+                                            </span>
+
+                                                    
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            17.4分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="洋芋蛋蛋" src="https://hds9528.github.io/images/avatar.png?v=1735212034244" srcset="https://hds9528.github.io/images/avatar.png?v=1735212034244" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://hds9528.github.io" title="由洋芋蛋蛋发布" rel="author">洋芋蛋蛋<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2022-08-11</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>泵是用来把原动机的机械能转变为液体的动能和压力能的一种设备。泵一般用来输送液体，可以从位置地的地方送到位置高的地方，或者从压力地的容器输送到压力高的容器。</p>
+<p><strong>水泵的型号一般如何表示：</strong></p>
+<p>水泵的型号相当繁杂且不统一，常用的水泵型号由三个部分组成，每部分的含义如下：</p>
+<p>⑴ 第一部分为数字，它表示缩小到原来的1／25的吸水管直径（mm）</p>
+<p>⑵ 第二部分取汉语拼音的第一个字母，表示水泵的结构类型。</p>
+<p>⑶ 第三部分为数字，它表示缩小到原来的1／10，并化为整数的比转数。</p>
+<p>水泵的主要性能参数和含义：性能参数是扬程，流量，转数，轴功率，效率。</p>
+<p>扬程：指单位重量液体通过泵后所获得的能量增加值，扬程又叫总扬程、全扬程　或总水头，用Ｈ表示，单位为米水柱。</p>
+<p>流量：指单位时间内水泵供出的液体数量，用体积流量Ｑ表示，单位为立方米／时或升／秒，也可以用重量流量Ｑ表示，单位公斤／秒或吨／时。</p>
+<p>转数：即水泵轴每分钟的转数，用n表示，单位为转／分。</p>
+<p>轴功率：即由原动机传给水泵泵轴上的功率，用Ｎ表示，单位为瓦或千瓦。</p>
+<p>效率：轴功率不是全部被水泵利用了，其中有一部分损失掉了，把有效功率与轴　功率之比称为泵效率，用符号n表示。</p>
+<p><strong>离心泵的工作原理：</strong></p>
+<p>离心泵的工作原理就是在泵内充满流体的情况下，叶轮旋转带动带动叶轮内的流体一起旋转而产生离心力，叶轮中心的流体在离心力的作用下甩向叶轮的外缘，于是叶轮中心压力形成真空。流体就在这个压力差的作用下沿着吸入管源源不断的流入叶轮而进行补充，这样从叶轮得到能量的流体流入蜗壳或导叶内，将一部分动能转变为压力能，然后沿着压力管道排出，这样泵就可以连续不断地工作。</p>
+<p>**离心泵的效率：**离心泵有机械效率，容积效率，水力效率和总效率。</p>
+<p>机械效率：就是工作轮有效的吸收并转化为扬程的功率与泵的轴功率的比值。</p>
+<p>容积效率：泵的出口有效流量比液体流经工作轮的流量小，这个流量比即是容积效率。</p>
+<p>水力效率：有效的总扬程与理论扬程之比称为水力效率或流动效率。</p>
+<p>总效率：总效率等于机械效率、容积效率、水力效率的乘机。</p>
+<p><strong>离心泵有那几种调节方法原理是怎样的：</strong></p>
+<p>调节方法：变阀调节，变速调节，改变泵的运行台数；</p>
+<p>变阀调节：就是在输送液体的管道上利用阀们的开度的大小来调节泵的流量。它是利用改变管道系统阻力的方法，变更管道曲线，使其工作点发生变化，以便获得需要的流量。</p>
+<p>变速调节：改变水泵转速，使泵的特性曲线升高或降低，从而使泵的特性曲线与管道阻力特性曲线的交点位置改变，泵的流量也随之发生变化。</p>
+<p>改变泵的运行台数：在母管制的给水系统中以及循环系统，可用改变泵的运行台数进行流量调节。其操作方法通常是根据锅炉对给水量及压力的要求，或根据循环水量和凝汽器真空的要求来决定运转泵的台数。</p>
+<p><strong>水泵运行中的维护：</strong></p>
+<p>1.运行泵联锁键必须在“工作”位置，备用泵联锁健在“投入”位置。</p>
+<p>2.备用泵的闸门（逆止门、电动联动门除外）应在开启位。</p>
+<p>3.故障泵联锁键应在“解除”位，并解除电源待修。</p>
+<p>4.故障泵各闸门应在关闭位置。</p>
+<p>5.各电泵运行中，轴承冷却水、润滑油应充足，泵体声音正常，电机电流在额定范围内。</p>
+<p>6.滚动轴承其温度不高于90℃。</p>
+<p>7.电机温升不超过60℃。</p>
+<p>8.滑动轴承温度不超过70℃。</p>
+<p>泵轴承与电机轴承振动极限值（表）</p>
+<figure data-type="image" tabindex="1"><img src="https://hds9528.github.io/post-images/1660219729331.png" alt="" loading="lazy"></figure>
+<center>各轴承电机轴承（本体）振动不应超过规定极限值，若超过应停泵检查。</center>
+<p><strong>循环泵的启动、停止及事故处理：</strong></p>
+<p><strong>一、循环水泵的启动及注意事项：</strong></p>
+<p>1、启动前应检查（按检修后的验收标准）</p>
+<p>⑴设备完整，场地清洁，无检修遗留物，各表计齐全，指示在零位。</p>
+<p>⑵联系电气送电并测试电动机绝缘合格及马达外壳接地是否良好。</p>
+<p>⑶检查泵与系统阀门位置是否正常。</p>
+<p>⑷联轴器盘动灵活，轴承油质、油位正常，冷却水适量。</p>
+<p>⑸全开泵的进口电动门，开启泵客放空门放尽空气有水流出时关闭。</p>
+<p>⑹泵的出口逆止门正常，出口电动门应全关。</p>
+<p>2、启动</p>
+<p>启动前的检查正常后，合上一台循环泵的操作开关，应注意：</p>
+<p>⑴电流表电流瞬间指示到最大后５S内回落到额定值内，循环泵启动正常，反之则应立即停泵查明原因；</p>
+<p>⑵水泵启动后，出口电动门应联动开启，出口压力、电流、轴承声音、振动、油质、油位、温度应正常，盘根有水滴出，不发热。</p>
+<p>⑶检查正常后将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p><strong>二、循环水泵的停止及注意事项：</strong></p>
+<p>1、检查</p>
+<p>⑴检查备用泵入口电动门开启，轴承油质合格、油位正常，盘根有冷却水流出，开启泵客放空门放尽空气有水流出时关闭。</p>
+<p>⑵解除运行泵的联锁开关，启动备用泵。</p>
+<p>2、启动后应注意：</p>
+<p>⑴检查备用泵启动正常后停泵，将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p>⑵如果发现停泵后倒转，应立即关闭出口门或入口门。</p>
+<p>⑶如备用泵启动开关合不上，应汇报上级待处理正常后，在停备用泵。</p>
+<p>循环水泵不打水的象征有如下几点：</p>
+<p>⑴电流表大幅度变化；</p>
+<p>⑵出水压力下降或变化；</p>
+<p>⑶泵内声音异常，出水管振动；</p>
+<p>循环水泵跳闸的象征有如下几点：</p>
+<p>⑴电流表指示到“０”，绿灯亮，红灯熄，事故喇叭响；</p>
+<p>⑵电动机转速下降；</p>
+<p>⑶水泵出水压力下降；</p>
+<p>⑷备用泵应联动。</p>
+<p><strong>三、循环水泵的事故处理：</strong></p>
+<p>1、运行泵发生下列故障时，先停故障泵，后开备用泵：</p>
+<p>⑴水泵叶轮损坏时；</p>
+<p>⑵水泵、电机轴承温度高于90℃或冒烟着火时；</p>
+<p>⑶水泵、电机振动值超过0.10mm，并伴有金属摩擦声时。</p>
+<p>2、运行泵发生下列故障时，先开备用泵，后停故障泵：</p>
+<p>⑴循环泵入口或出口蝶阀变速箱齿轮卡死或损坏时；</p>
+<p>⑵循环水泵入口侧或盘根漏空严重影响上水时；</p>
+<p>⑶电机温度升高，但温升未达到60℃，温度未到80℃时；</p>
+<p>⑴ 水泵入口滤网堵塞。</p>
+<p>3、循环水泵掉压力不打水的原因：</p>
+<p>⑴循环水吸水井水位低；</p>
+<p>⑵泵内憋空；</p>
+<p>⑶水泵入口侧或盘根漏空；</p>
+<p>⑷入口滤网脏，堵塞严重；</p>
+<p>⑸叶轮损坏；</p>
+<p>⑹入口蝶阀未打开或损坏；</p>
+<p>⑺电动机转动方向不正确；</p>
+<p>处理方法：</p>
+<p>⑴尽快加工业水将吸水井水位补正常，水位低时，尽可能避免倒泵；</p>
+<p>⑵门紧盘根消除漏点，无法消除并影响设备正常运行时，应采取措施设法消除；</p>
+<p>⑶倒泵清洗滤网；</p>
+<p>⑷确认叶轮损坏，应停泵待机修处理；</p>
+<p>⑸应检查确认入口门开启，损坏时应设法检修处理；</p>
+<p>⑵ 确认电机转动方向不正确，联系电气处理。</p>
+<p>4、循环水泵常见的故障及原因和处理方法：</p>
+<p>故障（一）不能启动</p>
+<p>原因：1.电动机故障或电气系统有问题；</p>
+<p>2.异物进入转动部位，发生卡涩；</p>
+<p>3.轴承故障卡住；</p>
+<p>4.不满足启动条件。</p>
+<p>处理：1.检查电动机及电器系统；</p>
+<p>2.清理异物；</p>
+<p>3.更换轴承；</p>
+<p>4.按条件顺序逐一检查。</p>
+<p>故障（二）出力不足</p>
+<p>原因：1.吸如侧有异物；</p>
+<p>2.叶轮损坏；</p>
+<p>3.出口阀门调整不当；</p>
+<p>4.转速低；</p>
+<p>5.吸入空气；</p>
+<p>6.发生汽蚀。</p>
+<p>处理：1.清理滤网、叶轮、及吸入口；</p>
+<p>2.更换叶轮；</p>
+<p>3.出口阀门在做调整；</p>
+<p>4.查明转速低的原因；</p>
+<p>5.提高吸入水位或放入木排等浮体；</p>
+<p>6.提高吸入水位或调整运行工况。</p>
+<p>故障（三）超负荷</p>
+<p>原因：1.轴承损坏；泵内有杂物；</p>
+<p>2.转动部件损坏、电动机缺相运行。</p>
+<p>3.填料压盖过紧；</p>
+<p>4.电压下降；</p>
+<p>处理：1.更换轴承，排除杂物；</p>
+<p>2.检修转动部件和电动机接线及开关；</p>
+<p>3.放松填料压盖；</p>
+<p>4.检查电源。</p>
+<p>故障（四）异常振动和噪音</p>
+<p>原因：1.靠背轮不同心，轴承损坏；</p>
+<p>2.吸水池水位低，出水管路有影响；</p>
+<p>3.发生汽蚀；</p>
+<p>4.异物堵塞或叶轮损伤；</p>
+<p>5.轴弯曲、转子不平衡；</p>
+<p>6.靠背轮螺栓连接不良；</p>
+<p>7.地脚螺栓松动或基础不牢固，转动部分松动；</p>
+<p>处理：1.重新找正，更换轴承；</p>
+<p>2.提高水位至最低水位以上，消除旋涡的发生，检查并消除不良影响；</p>
+<p>3.提高吸入水位或调整运行工况；</p>
+<p>4.清理异物更换损伤部件；</p>
+<p>5.矫直轴、消除不平衡；</p>
+<p>6.重新固定或更换螺栓；</p>
+<p>7.紧固螺栓或加固基础，检修松动部分；</p>
+<p><strong>凝结泵的启动、停止及事故处理：</strong></p>
+<p>作用是将凝汽器热井内的凝结水升压后送至回热系统。</p>
+<p>一、凝结水泵的启动及注意事项</p>
+<p>1、启动前的检查</p>
+<p>⑴检查泵体完整（检修后的设备应检查马达外壳接地是否良好，测试电动机绝缘合格）。</p>
+<p>⑵检查泵与系统阀门位置是否正常。</p>
+<p>⑶联轴器盘动灵活，轴承油质、油位正常。</p>
+<p>⑶检查泵的水封门、出口门、空气门、入口门开启，并有适量的冷却水流出。</p>
+<p>2、启动</p>
+<p>启动前的检查正常后，合上一台凝结泵的操作开关，应注意：</p>
+<p>⑴电流表电流瞬间指示到最大后５S内回落到额定值内，凝结泵启动正常，反之则应立即停泵查明原因；</p>
+<p>⑵水泵启动后，凝结水母管压力、电流、轴承声音、振动、油质、油位、温度应正常，盘根有水滴出，不发热。</p>
+<p>⑶检查正常后将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p>二、凝结水泵停止及注意事项</p>
+<p>1、检查</p>
+<p>⑴检查备用泵的水封门、出口门、空气门、入口门开启，盘根有冷却水流出；</p>
+<p>⑵轴承油质合格、油位正常；</p>
+<p>⑶解除运行泵的联锁开关，启动备用泵。</p>
+<p>2、启动后应注意</p>
+<p>⑴检查备用泵启动正常后停泵，将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p>⑵如果发现停泵后倒转，应立即关闭出口门或入口门。</p>
+<p>⑶如备用泵启动开关合不上，应汇报上级待处理正常后，在停备用泵。</p>
+<p>三、凝结水泵的事故处理</p>
+<p>1、运行泵发生下列故障时，先停故障泵后开备用泵；</p>
+<p>⑴轴承温度升至70℃以上或冒烟；</p>
+<p>⑵电机冒烟或着火；</p>
+<p>⑶水泵或电机内有清楚的金属摩擦声；</p>
+<p>⑷水泵叶轮损坏。</p>
+<p>2、运行泵发生下列故障时，报告司机后，先开备用泵，后停故障泵：</p>
+<p>⑴电机温度升高，但未达到80℃或温升未达到60℃；</p>
+<p>⑵水泵，电机轴承温度升高，但未到90℃；</p>
+<p>⑶水泵入口侧，盘根漏空严重影响水泵运行时；</p>
+<p>⑷水泵，电机振动超过0.06mm；</p>
+<p>⑸水泵汽化影响打水时。</p>
+<p>3、凝结水泵掉压力或不打水原因：</p>
+<p>⑴凝结器热水井水位偏低；</p>
+<p>⑵水泵入口侧闸门法兰、盘根或水泵盘根室空气门漏空；</p>
+<p>⑶电机转动方向不正确；</p>
+<p>⑷水泵叶轮松动或损坏；</p>
+<p>⑸水泵产生汽化；</p>
+<p>⑹入口闸板脱落。</p>
+<p>处理方法：</p>
+<p>⑴当热水井水位偏低时，应用凝结水在循环门调整或用软水补水补正常；</p>
+<p>⑵采用加盘根，调整盘根密封水，禁固螺丝设法消除；</p>
+<p>⑶确认电动机转动方向不正确，联系电气处理；</p>
+<p>⑷确认叶轮松动或损坏，停羹待机修处理；</p>
+<p>⑸确认泵汽化，应停泵待汽化消除后投入运行；</p>
+<p>⑶ 确认入口门闸板脱落，应汇报值长等候处理。</p>
+<p>4、凝结水泵常见的故障及原因和处理方法：</p>
+<p>故障（一）不能启动</p>
+<p>原因：1、电动机故障或电气系统有问题；</p>
+<p>2、异物进入转动设备，发生卡涩；</p>
+<p>3、轴承故障卡住或太紧；</p>
+<p>处理：1、检查电动机及电气系统；</p>
+<p>2、清理异物；</p>
+<p>3、检修轴承。</p>
+<p>故障（二）出力不足或不出水</p>
+<p>原因：1、负压部分漏空气；</p>
+<p>2、叶轮损坏，转向反。</p>
+<p>3、阀门调整不当或出、入口阀门阀芯脱落；</p>
+<p>4、凝汽器水位过低；</p>
+<p>处理：1、查找并消除漏空气处；</p>
+<p>2、更换叶轮或倒换电机接线，调整转向；</p>
+<p>3、出口阀门在做调整或检修故障阀门；</p>
+<p>4、调整凝汽器水位。</p>
+<p>故障（三）超负荷</p>
+<p>原因：1、电动机缺相运行；</p>
+<p>2、轴承损坏；</p>
+<p>3、泵内有杂物；</p>
+<p>4、转动部分损坏；</p>
+<p>5、填料压盖过紧；</p>
+<p>6、电压下降。</p>
+<p>处理：1、检查电动机接线及开关；</p>
+<p>2、更换轴承；</p>
+<p>3、排除杂务；</p>
+<p>4、检修转动部分；</p>
+<p>5、放松填料压盖；</p>
+<p>6、检查电源。</p>
+<p>故障（四）异常振动和噪音</p>
+<p>原因：1、靠背轮不同心；</p>
+<p>2、轴承损坏；</p>
+<p>3、轴弯曲、转子不平衡；</p>
+<p>4、靠背轮螺栓连接不良；</p>
+<p>5、地脚螺栓松动或基础不牢固；</p>
+<p>6、转动部分松动；</p>
+<p>7、电动机不良。</p>
+<p>处理1、重新找正；</p>
+<p>2、更换轴承；</p>
+<p>3、娇直轴、消除不平衡；</p>
+<p>4、重新固定或更换螺栓；</p>
+<p>5、紧固螺栓或加固基础；</p>
+<p>6、检修松动部件；</p>
+<p>7、检修电动机。</p>
+<p>一、凝结水泵为什么要装有空气管？</p>
+<p>答：因为凝结水泵在真空情况下运转，把水从凝汽器中抽出时，凝结水泵很容易漏入空气。装设空气管后，凝结水泵内少量的空气，可通过空气管排入凝汽器，不会致使空气凝聚在凝结水泵内部而影响凝结水泵工作。</p>
+<p>二、凝结水泵盘根为什么要用凝结水密封？</p>
+<p>答：凝结水泵在备用时处在高度真空下，因此，凝结水泵必须有可靠的密封，凝结水泵除本身有密封填料外，还必须使用凝结水作为密封冷却水。若凝结水泵盘根漏空，则将影响运行泵的正常运行。</p>
+<p>凝结水泵盘根使用其他水源来冷却密封、会使凝结水污染，所以必须使用凝结水来冷却密封盘根。</p>
+<p>三、凝结水泵为什么要装在循环？</p>
+<p>答：为了避免凝结泵发生汽蚀，必须保持一定的出水量。当空负荷和低负荷时凝结水量少，凝结水泵采用低水位运行，汽蚀现象逐渐严重，凝结水泵工作极不稳定，这时通过再循环管，凝结泵的一部分出水流回凝结器，保证凝结泵的正常工作。</p>
+<p>凝结水泵所输送的是与凝汽器压力相应下的饱和水，所以在凝结水泵入口易发生汽化，故水泵性能中规定了进口侧的灌注高度，借助水拄产生的压力，使凝结水离开饱和状态，避免汽化，因而凝结水泵安装在热井最低水位以下，是使水泵入口与最低水位维持0.9～2.2m的高度。</p>
+<p>由于凝结水泵进口是处在高度真空状态下，容易从不严密的地方漏入空气，积聚在叶轮进口，使凝结水泵打不出水。所以一方面要求进口处严密不漏汽，另一方面在泵入口处接一抽空气管道至凝汽器侧（亦称平衡管），以保证凝结水泵的正常运行。</p>
+<p><strong>射水泵的启动、停止及事故处理：</strong></p>
+<p>射水泵的作用是向射水抽汽器提供一定的压力供给水，使其建立和保持凝汽器真空。</p>
+<p>一、射水泵的启动及注意事项</p>
+<p>1、启动前的检查</p>
+<p>⑴检查泵体完整（检修后的设备应检查马达外壳接地是否良好，测试电动机绝缘合格）。</p>
+<p>⑵检查泵与系统阀门位置是否正常。</p>
+<p>⑶联轴器盘动灵活，轴承油质、油位正常。</p>
+<p>⑷检查泵的出口门、入口门开启，并有适量的冷却水流出。</p>
+<p>2、启动</p>
+<p>启动前的检查正常后，合上一台射水泵的操作开关，应注意：</p>
+<p>⑴电流表电流瞬间指示到最大后5s内回落到额定值内，射水泵启动正常，反之则应立即停泵查明原因；</p>
+<p>⑵水泵启动后，射水泵出口压力、电流、轴承声音、振动、油质、油位、温度应正常，盘根有水滴出，不发热。</p>
+<p>⑶检查正常后将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p>二、射水泵停止及注意事项</p>
+<p>1、检查</p>
+<p>⑴检查备用泵的出口门、入口门开启，盘根有冷却水流出；</p>
+<p>⑵轴承油质合格、油位正常；</p>
+<p>⑶解除运行泵的联锁开关，启动备用泵。</p>
+<p>2、启动后应注意</p>
+<p>⑴检查备用泵启动正常后停泵，将运行泵联锁键搬至工作位，备用泵联锁键搬至投入位置；</p>
+<p>⑵如果发现停泵后倒转，应立即关闭出口门或入口门。</p>
+<p>⑶如备用泵启动开关合不上，应汇报上级待处理正常后，在停备用泵。</p>
+<p>三、射水泵的事故处理</p>
+<p>1、运行泵发生下列故障时，先停故障泵后开备用泵；</p>
+<p>⑴轴承温度升至90℃以上或冒烟；</p>
+<p>⑵电机冒烟或着火；</p>
+<p>⑶水泵或电机内有清楚的金属摩擦声；</p>
+<p>⑷水泵叶轮损坏。</p>
+<p>2、运行泵发生下列故障时，先开备用泵，后停故障泵：</p>
+<p>⑴电机温度升高，但未达到80℃或温升未达到60℃；</p>
+<p>⑵水泵，电机轴承温度升高，但未到90℃；</p>
+<p>⑶水泵逆止门或进出口民损坏；</p>
+<p>⑷水泵，电机振动超过0.06mm；</p>
+<p>3、射水泵掉压力或不打水原因：</p>
+<p>⑴射水箱水位低或无水；</p>
+<p>⑵射水箱水温高或水泵入口管堵塞；</p>
+<p>⑶电机转动方向不正确；</p>
+<p>⑷水泵入口闸板脱落或叶轮损坏。</p>
+<p>处理方法：</p>
+<p>⑴向射水箱加工业水补止正常水位（工业水无法加补时，可加循环水）；</p>
+<p>⑵向射水箱加工业水换水，若入口管堵塞严重时，汇报值长待停机处理；</p>
+<p>⑶确认电动机转动方向不正确，联系电气处理；</p>
+<p>⑷确认水泵入口闸板脱落或叶轮损坏时应停机处理；</p>
+
+                                </div>
+                            </div>
+                            
+                                <div class="reward ">
+                                    <div class="reward-button ">&yen;
+                                        <span class="reward-code "> 
+                                            <span class="alipay-code "> <img class="alipay-img "  alt = "support " src="/images/支付宝.jpg"><b>Alipay</b>                                                            </span>
+                                        <span class="wechat-code "> <img alt ="support " class="wechat-img " src="/images/微信支付.jpg"><b>Wechat</b> </span> </span>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                洋芋蛋蛋<br>永久链接:
+                                    <a href="https://hds9528.github.io/Q7F5QUBwR/" title="各类泵的启停步骤与事故处理">
+                                        https://hds9528.github.io/Q7F5QUBwR/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://hds9528.github.io/H-IsFzoLt/">
+                                <i class="fa fa-chevron-left"></i>
+                                安装专业识图
+                            </a>
+                        </div>
+                        
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://hds9528.github.io/VA30VgHYl/">
+                                        法兰螺栓如何紧固才科学规范？<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://hds9528.github.io/Q7F5QUBwR/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hds9528.github.io/Q7F5QUBwR/&sharesource=qzone&title=各类泵的启停步骤与事故处理&pics=https://hds9528.github.io/images/avatar.png?v=1735212034244&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://hds9528.github.io/Q7F5QUBwR/&sharesource=weibo&title=各类泵的启停步骤与事故处理 + " - " + &pic="https://hds9528.github.io/images/avatar.png?v=1735212034244"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '67e806cf8a40d225a893',
+        clientSecret: 'd407e28b2a0ba051ec725a52fea01d0e509446b8',
+        repo: 'https://hds9528.github.io',
+        owner: 'hds9528',
+        admin: ['hds9528'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: '',
+        appKey: '',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '来都来了，不妨评论一下',
+        visitor: true,
+        highlight: true,
+        recordIP: true,
+    })
+</script>
+                                                    
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://hds9528.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷暖通',
+                                        url: 'https://hds9528.github.io/BUh2ERhmABt/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷选型',
+                                        url: 'https://hds9528.github.io/jkV3YFdmccY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷泵',
+                                        url: 'https://hds9528.github.io/Wnjn9lk7-Lh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷BOM',
+                                        url: 'https://hds9528.github.io/PI_6zkpB7/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷密封圈',
+                                        url: 'https://hds9528.github.io/89We8UMBh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷O形橡胶圈',
+                                        url: 'https://hds9528.github.io/ixT2MqQZ3D/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电气',
+                                        url: 'https://hds9528.github.io/-Aq_YDJIG/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷螺栓',
+                                        url: 'https://hds9528.github.io/oE1_Fbgjv/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷管道',
+                                        url: 'https://hds9528.github.io/1IUI6QxMus/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷法兰',
+                                        url: 'https://hds9528.github.io/VQXUlGBpiY0/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷solidworks',
+                                        url: 'https://hds9528.github.io/JUPXyGJy9X/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷Gridea',
+                                        url: 'https://hds9528.github.io/7hH9--hND/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷机械',
+                                        url: 'https://hds9528.github.io/dM7YjRk7hY/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷笔记',
+                                        url: 'https://hds9528.github.io/qIdMOoNCx1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷知识',
+                                        url: 'https://hds9528.github.io/q_PAbhL9Zm/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷组态',
+                                        url: 'https://hds9528.github.io/vbsGYnE8T/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷震动',
+                                        url: 'https://hds9528.github.io/yj-k5IwFLN1/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷随笔',
+                                        url: 'https://hds9528.github.io/_8BpFSlZ4U/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷仪表',
+                                        url: 'https://hds9528.github.io/u22U9fFgn/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷心情',
+                                        url: 'https://hds9528.github.io/mk-zS4s6Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷旅行',
+                                        url: 'https://hds9528.github.io/yExNDfpwu/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷音乐',
+                                        url: 'https://hds9528.github.io/MJb16FdXi/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷专利',
+                                        url: 'https://hds9528.github.io/EzTjPQU42B/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷足迹',
+                                        url: 'https://hds9528.github.io/WnYUyNMceS/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷设计',
+                                        url: 'https://hds9528.github.io/fLR_KqFhy2/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷电机',
+                                        url: 'https://hds9528.github.io/rD1AAfK4f3/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷模具',
+                                        url: 'https://hds9528.github.io/tjTBT-7ipD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职场',
+                                        url: 'https://hds9528.github.io/_MrXgiOFMD/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷阀门',
+                                        url: 'https://hds9528.github.io/oJJMQFlRej/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷紧固件',
+                                        url: 'https://hds9528.github.io/YOiOpLnxlB/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷教程',
+                                        url: 'https://hds9528.github.io/GCwycyRDHd9/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷相册',
+                                        url: 'https://hds9528.github.io/7eFYO-Numdy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工作',
+                                        url: 'https://hds9528.github.io/SDpjskVZcx-/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷防呆',
+                                        url: 'https://hds9528.github.io/rGDPIUkMS-R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷问题',
+                                        url: 'https://hds9528.github.io/HOI31hMebQg/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷安装',
+                                        url: 'https://hds9528.github.io/xkG_8OQqyCy/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷风机',
+                                        url: 'https://hds9528.github.io/OzpXC6tBs1R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷职称',
+                                        url: 'https://hds9528.github.io/-7jikkqeu6s/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷力学',
+                                        url: 'https://hds9528.github.io/-8Qn4M_lvTQ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷发动机',
+                                        url: 'https://hds9528.github.io/yx-vNQ__GWZ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷减震',
+                                        url: 'https://hds9528.github.io/JpzkdaJDcnN/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷公差配合',
+                                        url: 'https://hds9528.github.io/4Fr6ndfaiRA/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷热处理',
+                                        url: 'https://hds9528.github.io/Of3MN_lnK4g/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷工艺',
+                                        url: 'https://hds9528.github.io/I2IRpWDiPnl/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷系统',
+                                        url: 'https://hds9528.github.io/rFnoNERz9fK/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷优先数系',
+                                        url: 'https://hds9528.github.io/3KtEo-fVVXM/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷表面处理',
+                                        url: 'https://hds9528.github.io/dDtaGE9-ryh/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷CAD',
+                                        url: 'https://hds9528.github.io/pC84Rb4XXQi/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '落英',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1948125134.mp3',
+                                        artist: '银临',
+                                        cover: 'http://p2.music.126.net/YhXBEzvgI9-BHRRU8Bncgg==/109951166608557026.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '童话镇',
+                                        url: '/images/music/童话镇.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'https://p2.music.126.net/sNn1aznak5Q_I-N4CkIMZg==/109951166109456453.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '错位时空',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1808492017',
+                                        artist: '艾辰',
+                                        cover: 'http://p1.music.126.net/8C0lwLE88j9ZwLyPQ9a4FA==/109951165595770076.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '阿婆说',
+                                        url: '/images/music/阿婆说 - 陈一发儿(320K).mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/WuqmyGp2T2FTKKzCDKTmdw==/109951163670388719.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: ' 牵丝戏',
+                                        url: '/images/music/陈一发儿 - 牵丝戏 - 陈一发儿.mp3',
+                                        artist: '陈一发儿',
+                                        cover: 'http://p1.music.126.net/Ck-yIYTTx-oFnprZQnwAyA==/109951166115712947.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '漠河舞厅',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1894094482.mp3',
+                                        artist: '柳爽',
+                                        cover: 'http://p1.music.126.net/m8BMzRWR53lMu2uaMYV2mA==/109951166609630672.jpg?param=130y130',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: '有团有聚',
+                                        url: 'http://music.163.com/song/media/outer/url?id=1343044138.mp3',
+                                        artist: '水谷広実',
+                                        cover: 'http://p1.music.126.net/obg37GnRFZ2d34hYMUE9cA==/109951163828303973.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        说说
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        时光如白驹过隙，转瞬即逝，可是心情却很长，如高山大川，连绵不绝。<br>来自： <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> <script type="text/javascript"> document.write(returnCitySN["cip"]+','+returnCitySN["cname"]) </script> 的朋友，你好呀！
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        Tips: 
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        加载过慢可以使用代理! 本页托管于 GitHub Pages
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://wzx.is-a.dev/'"><span class="link_a"><a href="https://wzx.is-a.dev/" alt="WZX ">WZX -wzx个人主页
+</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://www.cxl2020mc.top'"><span class="link_a"><a href="https://www.cxl2020mc.top" alt="陈鑫磊的博客 ">陈鑫磊的博客 -这个人太懒了啥也没写......</a></span></p>
+
+                                                                    
+                                                                    <p onclick="javascript:top.location='https://hi-wilson.github.io'"><span class="link_a"><a href="https://hi-wilson.github.io" alt="Wilson博客 ">Wilson博客 -一个来自浙江的小学生</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        
+            
+                <div style="width:300px;margin:0 auto; padding:0px 0;">
+                    <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010408596" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="https://yanxuan.nosdn.127.net/b610ced5ac6a0e25cf6edf5606c69775.png" style="float:left;">
+                        <p id="icpinfo" style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">
+                            浙网公安备
+                        </p>
+                    </a>
+                </div>
+                
+                    
+<!--访问者IP-->
+
+
+
+<!--
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+
+
+
+                    <!--年末 开始
+                        <script src="media/js/outtime.js"></script>
+						<div id="outtime"></div>
+						<!--年末倒计时-->
+
+
+
+<div>
+<script async src="https://cdn.dusays.com/bsz.js"></script>总阅读量 <span id="busuanzi_value_page_pv"></span> 次  总访客数 <span id="busuanzi_value_site_uv"></span> 人  总访问量 <span id="busuanzi_value_site_pv"></span> 次
+</div>
+
+
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2019'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+
+                            </a>&nbsp;&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://hds9528.github.io">
+                                洋芋蛋蛋
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://abchds.gitee.io/index.html" target="_blank">
+                                小霸王
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c洋芋蛋蛋\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>
